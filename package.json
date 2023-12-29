@@ -1,0 +1,35 @@
+{
+  "name": "portfolio-cms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Army's portfolio cms",
+  "license": "MIT",
+  "author": {
+    "name": "Ratchanon Thanatsang"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.10",
+    "@strapi/plugin-cloud": "4.16.2",
+    "@strapi/plugin-i18n": "4.16.2",
+    "@strapi/plugin-users-permissions": "4.16.2",
+    "@strapi/strapi": "4.16.2",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "4eb92fe8-812b-4beb-a754-738a593989a2"
+  }
+}
